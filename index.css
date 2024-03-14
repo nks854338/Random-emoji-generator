@@ -9,10 +9,14 @@ body {
 }
 
 .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     background-color: black;
     color: #ffffff;
-    font-size: 6vmin;
+    font-size: 4vmin;
+    height: 8vmin;
     padding: 2vmin;
 }
 
@@ -66,4 +70,35 @@ span {
     border-radius: 20px;
     cursor: pointer;
     font-weight: 600;
+}
+
+
+
+
+@media(max-width:475px){
+
+    .heading {
+        height: 10vmin;
+        font-size: 4vmin;
+        padding: 2vmin;
+    }
+
+    .container {
+        height: 70vh;
+        width: 60vmin;
+        margin: 0 12vh;
+        padding: 1vmin;
+        margin-top: 8vmin;
+        border-radius: 20px;
+    }
+
+    .emoji{
+        font-size: 24vmin;
+    }
+
+    .GenEmoji {
+        padding: 1.5vmin 7vmin;
+        font-size: 3vmin;
+    }
+
 }
