@@ -22,16 +22,17 @@ body {
 
 .container {
     display: grid;
-    height: 70vh;
-    width: 100vmin;
-    margin: 0 60vh;
-    padding: 3vmin;
     align-items: center;
     justify-content: center;
     background-color: black;
-    margin-top: 8vmin;
-    border-radius: 20px;
+    margin: auto;
+    width: 40%;
+    gap: 8vmin;
+    margin-top: 6%;
+    padding: 20px 2px;
+    border-radius: 15px;
 }
+
 
 .display_emoji {
     display: inline;
@@ -75,30 +76,29 @@ span {
 
 
 
-@media(max-width:475px){
+@media(max-width:475px) {
 
     .heading {
         height: 10vmin;
-        font-size: 4vmin;
+        font-size: 5vmin;
         padding: 2vmin;
     }
 
     .container {
-        height: 70vh;
-        width: 60vmin;
-        margin: 0 12vh;
-        padding: 1vmin;
-        margin-top: 8vmin;
-        border-radius: 20px;
+        width: 95%;
+        margin: 50vmin 1vh;
+        padding: 6vh 0vh;
+        border-radius: 10px;
     }
 
-    .emoji{
-        font-size: 24vmin;
+    .emoji {
+        font-size: 25vmin;
     }
 
     .GenEmoji {
         padding: 1.5vmin 7vmin;
         font-size: 3vmin;
+        border-radius: 10px;
     }
 
 }
