@@ -1,1 +1,1 @@
-https://nks22bsc10085.github.io/Random-emoji-generator/
+https://nks854338.github.io/Random-emoji-generator/
